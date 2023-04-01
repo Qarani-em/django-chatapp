@@ -1,7 +1,6 @@
 #!/bin/bash
 git add .
-echo "What's your name?"
-read name
-echo "Hello, $name!"
-git commit -m "$name"
+echo "commit message: "
+read message
+git commit -m "$message"
 git push

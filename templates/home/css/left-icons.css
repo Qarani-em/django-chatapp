@@ -1,0 +1,29 @@
+i{
+    color: #64646d;
+}
+ul{
+    list-style: none;
+}
+
+.left-icons , .left-icons  ul, .left-icons  ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-icons {
+    padding: 15vh 0vh 2vh 0vh;
+    gap: 5vh;
+}
+.left-icons  ul {
+    width: 5vw;
+}
+.left-icons  ul li{
+    width: 5vw;
+    height: 7vh;
+    justify-content: center;
+}
+.left-icons  ul li:hover{
+    border-left: 2px solid #ffffff;
+    background:linear-gradient(to right, rgba(252, 246, 212,0.2) ,#17181f);
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 5vw 2vh 5vw;
+}
+.left-icons{
+    width: 5vw;
+    height: 96vh;
+    background-color: #1f2029;
+    border-radius: 3vh 0px 0px 3vh;
+}
+.vl {
+    border-left: 0.5px solid #64646d;
+    height: 96vh;
+  }
+.recents{
+    width: 20vw;
+    height: 96vh;
+    background-color: #1f2029;
+}
+.chat-page{
+    width:45vw;
+    height: 96vh;
+    background-color: #17181f;
+}
+.shared-media{
+    width: 20vw;
+    height: 96vh;
+    background-color: #1f2029;
+    border-radius: 0vh 3vh 3vh 0vh;
+}
+
+/* font color #f7f6fa */
+/* icon color #64646d */
+/* inbox message #1f2029 */
+/* highlighted icon color #fcf6d4 */
