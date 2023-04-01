@@ -1,5 +1,6 @@
 .recents{
     padding-left: 1vw;
+
 }
 .recents .header{
     height: 10vh;
@@ -7,16 +8,73 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 8vw;
+    gap: 0.5vw;
     font-weight: 700;
+    border-bottom: 0.5px solid #17181f;
     color: #ffffff;
+
 }
-.title{
+.recents .header .title{
+    height: 5vh;
+    width: 5vh;
+    background-color: #fcf6d4;
+    border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2029;
+}
+.recents .message{
+    margin-top: 3vh;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.recents .recent-chats{
+    margin-top: 1vh;
+    color:#64646d;
+    font-weight: 900;
+    font-size: 0.7rem;
+    text-overflow: ellipsis;
     
 }
-.title-letter{
-    width: 5vh;
+
+.recents .convo{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    text-overflow: clip;
+    overflow-x: hidden;
+    align-items: center;
+}
+.recents  .avatar{
     height: 5vh;
-    background-color: red;
+    width: 5vh;
+    background-color: #fcf6d4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text{
+    text-overflow: clip;
+    /* background-color: red; */
+    width: 14vw;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.text p:nth-child(1){
+    color: white;
+    text-overflow: ellipsis;
+
+}
+.text p:nth-child(2){
+    color: #64646d;
+    text-overflow: ellipsis;
+    font-size: 0.7rem;
 }
