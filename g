@@ -6,5 +6,5 @@ while true;do
     git commit -m "$message"
     git push
 
-    sleep 60
+    sleep 1800
 done
